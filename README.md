@@ -46,8 +46,9 @@ participants are asked the following question to rate their “happiness”:
 top of the ladder represents the best possible life for you and the bottom of the ladder
 represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?” (Wellbeing Research Centre at the University of
 Oxford & Gallup, 2025).
-
-
+<br>
+![alt text](https://github.com/jenni-k-byul/Data-Wrangling-Final-Project---Does-Positive-Pop-Music-Portend-Positive-Attitudes-/blob/main/Images/DS1.png)
+<br>
 This question is carefully worded so that it can be universally translated and understood. On
 average, more than 100,000 people from 140 different countries participated in the survey and
 data is collected throughout the year to accommodate differences in local factors.
@@ -80,6 +81,9 @@ This dataset, compiled by KEVINAM, was extracted from Spotify’s Top 50 Global 
 about the playlist but it also includes key music analytics such as danceability, energy, loudness,
 tempo, and country where it was ranked.
 <br>
+![alt text](https://github.com/jenni-k-byul/Data-Wrangling-Final-Project---Does-Positive-Pop-Music-Portend-Positive-Attitudes-/blob/main/Images/DS2.png)
+<br>
+
 Danceability “describes how suitable a track is for dancing based on a combination of
 musical elements including tempo, rhythm stability, beat strength, and overall regularity” (Spotify, 2025). Its values range from 0.0 to 1.0, where higher value is considered more
 ‘danceable.’
@@ -106,6 +110,9 @@ only the Country and Abbreviation columns will be extracted.
 
 <br>
 
+![alt text](https://github.com/jenni-k-byul/Data-Wrangling-Final-Project---Does-Positive-Pop-Music-Portend-Positive-Attitudes-/blob/main/Images/DS3.png )
+<br>
+
 
 
 
@@ -117,17 +124,16 @@ only the Country and Abbreviation columns will be extracted.
 To compare national happiness with current music trends, this dataset will include recent
 popular music charts from kworb.net for selected countries. Since this website updates its chart on daily and weekly basis, for this project, chart from 10/16/2025 will be used. Only the ‘Artist’ and ‘Title’ columns will be extracted.
 
-New Zealand
 <br>
 
-South Korea
+![alt text](https://github.com/jenni-k-byul/Data-Wrangling-Final-Project---Does-Positive-Pop-Music-Portend-Positive-Attitudes-/blob/main/Images/DS4.png )
 <br>
 
-USA
-
-<br>
 ### Dataset 5: Universal Top Spotify Songs (Kaggle)
 This dataset compiles top songs that are trending up to June 2025. Though the author of the dataset is different, this dataset has almost identical columns as the dataset 2. Thus, same columns will be extracted.
+<br>
+
+![alt text](https://github.com/jenni-k-byul/Data-Wrangling-Final-Project---Does-Positive-Pop-Music-Portend-Positive-Attitudes-/blob/main/Images/DS5.png )
 <br>
 Danceability “describes how suitable a track is for dancing based on a combination of
 musical elements including tempo, rhythm stability, beat strength, and overall regularity” (Spotify, 2025). Its values range from 0.0 to 1.0, where higher value is considered more
