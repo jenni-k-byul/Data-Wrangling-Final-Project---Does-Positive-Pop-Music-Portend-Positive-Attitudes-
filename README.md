@@ -158,11 +158,18 @@ Our analysis found a weak correlation between pop music’s general upbeatness a
 <br>
 Heatmaps
 Top 10 Countries:
+<br>
+
+![alt text](https://github.com/jenni-k-byul/Data-Wrangling-Final-Project---Does-Positive-Pop-Music-Portend-Positive-Attitudes-/blob/main/Images/happiest.png)
+<br>
 
 
 <br>
 Bottom 10 Countries:
+<br>
 
+![alt text](https://github.com/jenni-k-byul/Data-Wrangling-Final-Project---Does-Positive-Pop-Music-Portend-Positive-Attitudes-/blob/main/Images/low_happy.png)
+<br>
 
 <br>
 2023 -2025 comparison
