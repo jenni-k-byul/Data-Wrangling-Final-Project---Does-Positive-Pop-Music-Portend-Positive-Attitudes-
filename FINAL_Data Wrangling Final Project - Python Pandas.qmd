@@ -29,7 +29,7 @@ import numpy as np
 ```{python}
 
 ## Load World Happiness Report - 2023
-WHR23 = pd.read_csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/WHR23.csv')
+WHR23 = pd.read_csv('')
 
 
 ## Show all columns of WHR23 
@@ -84,7 +84,7 @@ References:
 ```{python}
 
 ## Load global top spotify song (2023) dataset
-universal_top_spotify_songs_2023 = pd.read_csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/universal_top_spotify_songs_2023.csv')
+universal_top_spotify_songs_2023 = pd.read_csv('')
 
 
 ## Show all columns of universal_top_spotify_songs_2023 
@@ -143,7 +143,7 @@ print(global_spotify_2023.columns)
 ```{python}
 
 ## Load the world_data_2023
-world_data_2023 = pd.read_csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/world_data_2023.csv')
+world_data_2023 = pd.read_csv('')
 
 
 print(world_data_2023.columns)
@@ -170,7 +170,7 @@ References:
 ```{python}
 
 ## Load Ireland's weekly chart for 10-16-2025
-new_zealand_25 = pd.read_csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/10_16_25_new_zealand.csv')
+new_zealand_25 = pd.read_csv('')
 
 
 print(new_zealand_25.columns)
@@ -215,7 +215,7 @@ new_zealand_filtered_2025
 ```{python}
 
 ## Import South Korea's weekly chart for 10-16-2025
-south_korea_2025 = pd.read_csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/10_16_25_korea.csv')
+south_korea_2025 = pd.read_csv('')
 
 
 print(south_korea_2025)
@@ -260,7 +260,7 @@ south_korea_filtered_2025
 ```{python}
 
 ## Import USA's weekly chart for 10-16-2025
-usa_25 = pd.read_csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/10_16_25_usa.csv')
+usa_25 = pd.read_csv('')
 
 
 print(usa_25)
@@ -307,7 +307,7 @@ This dataset was last updated on June 11, 2025.
 ```{python}
 
 ## Import the Universal Top Spotify Songs dataset
-universal_top_spotify_songs = pd.read_csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/universal_top_spotify_songs.csv')
+universal_top_spotify_songs = pd.read_csv('')
 
 
 print(universal_top_spotify_songs)
