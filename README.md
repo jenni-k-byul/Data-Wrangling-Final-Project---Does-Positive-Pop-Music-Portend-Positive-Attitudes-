@@ -35,7 +35,7 @@ uncover answers to the following questions:
 
 ## Datasets
 Sources of datasets: World Happiness Report (Gallup), Kaggle (Spotify API Music Dataset), Kworb (Weekly Spotify Charts)
-
+<br>
 ### Dataset 1: World Happiness Report - 2023
 
 The World Happiness Report, published annually by the University of Oxford’s Wellbeing
@@ -53,6 +53,7 @@ average, more than 100,000 people from 140 different countries participated in t
 data is collected throughout the year to accommodate differences in local factors.
 For this project, the following columns will be extracted from the dataset:
 
+<br>
 Country name: Official name of the represented country
 
 Ladder score which represents the “happiness score” we are mainly interested in.
@@ -68,7 +69,7 @@ Generosity reflects whether participants have donated any money to charity in th
 month. Once again, the answers were logged using a binary system where 0 is no and 1
 is yes.
 
-
+<br>
 
 
 
@@ -78,7 +79,7 @@ This dataset, compiled by KEVINAM, was extracted from Spotify’s Top 50 Global 
 (10/18/23 to 11/18/23) using the Spotify Web API. This dataset contains not only information
 about the playlist but it also includes key music analytics such as danceability, energy, loudness,
 tempo, and country where it was ranked.
-
+<br>
 Danceability “describes how suitable a track is for dancing based on a combination of
 musical elements including tempo, rhythm stability, beat strength, and overall regularity” (Spotify, 2025). Its values range from 0.0 to 1.0, where higher value is considered more
 ‘danceable.’
@@ -92,7 +93,7 @@ Valence measures the musical positiveness of a track, with higher scores indicat
 
 Tempo is the song’s speed represented by beats per minute (BPM).
 
-
+<br>
 
 
 
@@ -103,7 +104,7 @@ dataset to their formal country names. This dataset was the most appropriate map
 since both this and the Spotify datasets were compiled by the same author. From this dataset,
 only the Country and Abbreviation columns will be extracted.
 
-
+<br>
 
 
 
@@ -117,17 +118,17 @@ To compare national happiness with current music trends, this dataset will inclu
 popular music charts from kworb.net for selected countries. Since this website updates its chart on daily and weekly basis, for this project, chart from 10/16/2025 will be used. Only the ‘Artist’ and ‘Title’ columns will be extracted.
 
 New Zealand
-
+<br>
 
 South Korea
-
+<br>
 
 USA
 
-
+<br>
 ### Dataset 5: Universal Top Spotify Songs (Kaggle)
 This dataset compiles top songs that are trending up to June 2025. Though the author of the dataset is different, this dataset has almost identical columns as the dataset 2. Thus, same columns will be extracted.
-
+<br>
 Danceability “describes how suitable a track is for dancing based on a combination of
 musical elements including tempo, rhythm stability, beat strength, and overall regularity” (Spotify, 2025). Its values range from 0.0 to 1.0, where higher value is considered more
 ‘danceable.’
@@ -143,21 +144,21 @@ Tempo is the song’s speed represented by beats per minute (BPM).
 
 
 
-
+<br>
 
 
 ## Conclusion
 Our analysis found a weak correlation between pop music’s general upbeatness and a country’s self-reported happiness, but it was not the correlation we were expecting. Analysis of the top and bottom ten countries, as well as of the whole dataset, revealed less happy countries were more likely to prefer slightly more upbeat music. It could be that people living in more difficult circumstances turn to music as a salve, while happier nations, which are also generally more well-off, are more willing to engage with downbeat, lower tempo music.
-
+<br>
 Heatmaps
 Top 10 Countries:
 
 
-
+<br>
 Bottom 10 Countries:
 
 
-
+<br>
 2023 -2025 comparison
 Due to the weak correlation, we hope to revisit these findings when the 2025 World Happiness Report is released to see if any trends hold. Although 2025 is not over; and the World Happiness Report is still being compiled, we were able to gather data about popular music dating from January through June of this year. New Zealand and the United States both see changes in certain categories, with U.S. hits of 2025 being notably less danceable, less valence, higher tempo, and louder than 2023 hits. This could be reflective of trends in popular music, with hip hop being less prevalent on the charts than in the past. New Zealand’s shifts are less dramatic, with no changes of more than 5 units in the second place value on the chart.
 
