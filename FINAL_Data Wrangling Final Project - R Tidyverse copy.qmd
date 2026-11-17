@@ -30,7 +30,7 @@ References:
 ```{r}
 
 ## Load World Happiness Report - 2023
-WHR23 <- read.csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/WHR23.csv')
+WHR23 <- read.csv('')
 
 WHR23
 ```
@@ -77,7 +77,7 @@ References:
 ```{r}
 
 ## Load global top spotify song (2023) dataset
-universal_top_spotify_songs_2023 <- read.csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/universal_top_spotify_songs_2023.csv')
+universal_top_spotify_songs_2023 <- read.csv('')
 
 universal_top_spotify_songs_2023
 ```
@@ -135,7 +135,7 @@ global_spotify_2023
 ```{r}
 
 ## Load the world_data_2023
-world_data_2023 <- read.csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/world_data_2023.csv')
+world_data_2023 <- read.csv('')
 
 world_data_2023
 ```
@@ -165,7 +165,7 @@ References:
 ```{r}
 
 ## Import New Zealand's weekly chart of 10/16/2025
-`10_16_25_new_zealand` <- read.csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/10_16_25_new_zealand.csv')
+`10_16_25_new_zealand` <- read.csv('')
 
 `10_16_25_new_zealand`
 ```
@@ -204,7 +204,7 @@ new_zealand_2025
 ```{r}
 
 ## Import South Korea's weekly chart of 10/16/2025
-`10_16_25_korea` <-read.csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/10_16_25_korea.csv')
+`10_16_25_korea` <-read.csv('')
 
 `10_16_25_korea`
 ```
@@ -243,7 +243,7 @@ south_korea_2025
 ```{r}
 
 ## Import USA's weekly chart of 10/16/2025
-`10_16_25_usa` <- read.csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/10_16_25_usa.csv')
+`10_16_25_usa` <- read.csv('')
 
 `10_16_25_korea`
 ```
@@ -288,7 +288,7 @@ References:
 ```{r}
 
 ## Import the Universal Top Spotify Songs dataset
-universal_top_spotify_songs <- read.csv('/Users/Jaykay/Desktop/INF 385T.9 - Data Wrangling/Final Project Data/universal_top_spotify_songs.csv')
+universal_top_spotify_songs <- read.csv('')
 
 universal_top_spotify_songs
 ```
